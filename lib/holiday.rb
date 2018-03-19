@@ -65,6 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
     season_string = "#{season}"
     season_string = season_string.titlecase
     puts "#{season_string}:"
+    puts "#{holiday}"
   end
 end
 
