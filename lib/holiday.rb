@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |season, holiday|
     season_string = "#{season}"
-    puts season_string.titleize
+    puts season_string.titlecase
   end
 end
 
